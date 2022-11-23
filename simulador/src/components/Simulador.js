@@ -25,7 +25,7 @@ function Simulador(){
     const urls = [chocolate, cacao, cacao_seco, cacao_tostado, cacao_triturado];
  
     // let current_id = 0;
-    const [current_id, setCurrentId] = useState(100);
+    const [current_id, setCurrentId] = useState("Vacio");
     const {currentUser} = useCookieAuth();
 
 
@@ -354,13 +354,7 @@ function Simulador(){
                                     <br></br>
                                     <br></br>
                                     <br></br>
-                                    <script>
-                                    </script>
-                                    
-                                     {/* <h2>{JSON.stringify(data)}</h2> */}
-                                    {/* <h2>{JSON.stringify(data['1'].product)}</h2> */}
                                     <Tabla respuesta={data}/>
-                                    {/* <h2>{ JSON.stringify(data['1'].product)}</h2> */}
                                 </div>
                             </div>
                        

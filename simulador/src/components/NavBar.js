@@ -6,15 +6,15 @@ import useCookieAuth from '../hooks/useCookieAuth';
 export const SERVER_URL = process.env.REACT_APP_SERVER_URL;
 
 function NavBar() {
-  // let [current_id, setCurrentId] = useState();
+  // let [current_name, setCurrentId] = useState();
   //   useEffect(() => {
-  //       const data = window.localStorage.getItem("current_id");
+  //       const data = window.localStorage.getItem("current_name");
   //       if  ( data !==null) setCurrentId(JSON.parse(data));
   //   }, []);
 
   // function cerrar() {
-  //   current_id = 100;
-  //   window.localStorage.setItem("current_id", JSON.stringify(current_id));
+  //   current_name = "Vacio";
+  //   window.localStorage.setItem("current_name", JSON.stringify(current_name));
   // }
 
   const {currentUser, handleUserLogout} = useCookieAuth();

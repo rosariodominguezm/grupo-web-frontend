@@ -13,17 +13,17 @@ function LogIn() {
 
     // // const mail = useRef();
     // // const psw = useRef();
-    // // const [current_id, setCurrentId] = useState(100);
+    // const [current_name, setCurrentName] = useState("Vacio");
     // // const {handleUserLogin} = useCookieAuth();
 
-    // // useEffect(() => {
-    // //     const data = window.localStorage.getItem("current_id");
-    // //     if  ( data !==null) setCurrentId(JSON.parse(data));
-    // // }, []);
+    // useEffect(() => {
+    //     const data = window.localStorage.getItem("current_name");
+    //     if  ( data !==null) setCurrentName(JSON.parse(data));
+    // }, []);
 
-    // // useEffect(() => {
-    // //     window.localStorage.setItem("current_id", JSON.stringify(current_id));
-    // // }, [current_id]);
+    // useEffect(() => {
+    //     window.localStorage.setItem("current_name", JSON.stringify(current_name));
+    // }, [current_name]);
 
 
     // // const logIn = async () => {
@@ -98,7 +98,8 @@ function LogIn() {
                 //handleTokenChange(response.data.access_token);
                 handleTokenChange(response.data['token'], 'login');
                 handleUserLogin();
-                navigate(-1); // A la ultima pagina que estuvimos
+                // navigate(-1); // A la ultima pagina que estuvimos
+                navigate("/");
                 alert("Usuario ingresado correctamente");
             } catch (error) {
                 alert(`[${error.response.status}] ${error.response.data}`)
