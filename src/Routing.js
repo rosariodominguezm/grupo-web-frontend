@@ -21,13 +21,13 @@ function Routing(){
                     <NavBar/>
                     <Routes>
                         <Route path={'/'} element={ <Index/>}/>
-                        <Route path={'/preguntas-frecuentes'} element={<PreguntasFrecuentes />} />
-                        <Route path={'/login'} element={<LogIn />} />
-                        <Route path={'/registrarse'} element={<Registarse />} />
-                        <Route path={'/reglas-negocio'} element={<ReglasNegocio/>}/>
-                        <Route path={'/quienes-somos'} element={<QuienesSomos/>}/>
-                        <Route path={'/acerca-de'} element={<AcercaDe/>}/>
-                        <Route path={'/simulador'} element={<Simulador/>}/>
+                        <Route path={'api/preguntas-frecuentes'} element={<PreguntasFrecuentes />} />
+                        <Route path={'api/login'} element={<LogIn />} />
+                        <Route path={'api/registrarse'} element={<Registarse />} />
+                        <Route path={'api/reglas-negocio'} element={<ReglasNegocio/>}/>
+                        <Route path={'api/quienes-somos'} element={<QuienesSomos/>}/>
+                        <Route path={'api/acerca-de'} element={<AcercaDe/>}/>
+                        <Route path={'api/simulador'} element={<Simulador/>}/>
                     </Routes>
                 </TokenAuthProvider>
             </CookieAuthProvider>
