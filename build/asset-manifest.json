@@ -1,11 +1,11 @@
 {
-  "main.css": "/static/css/main.02a00fb4.chunk.css",
-  "main.js": "/static/js/main.b2a33a8d.chunk.js",
-  "main.js.map": "/static/js/main.b2a33a8d.chunk.js.map",
+  "main.css": "/static/css/main.b2c6afc6.chunk.css",
+  "main.js": "/static/js/main.c7c75fd6.chunk.js",
+  "main.js.map": "/static/js/main.c7c75fd6.chunk.js.map",
   "static/js/1.6010b644.chunk.js": "/static/js/1.6010b644.chunk.js",
   "static/js/1.6010b644.chunk.js.map": "/static/js/1.6010b644.chunk.js.map",
-  "static/js/2.c6cb1dd8.chunk.js": "/static/js/2.c6cb1dd8.chunk.js",
-  "static/js/2.c6cb1dd8.chunk.js.map": "/static/js/2.c6cb1dd8.chunk.js.map",
+  "static/js/2.540bb6ab.chunk.js": "/static/js/2.540bb6ab.chunk.js",
+  "static/js/2.540bb6ab.chunk.js.map": "/static/js/2.540bb6ab.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.6b3d35b8.js",
   "runtime~main.js.map": "/static/js/runtime~main.6b3d35b8.js.map",
   "static/media/chocolate-bar.png": "/static/media/chocolate-bar.9df557e2.png",
@@ -22,8 +22,8 @@
   "static/media/flo.jpg": "/static/media/flo.80a5d720.jpg",
   "static/media/pexels-fauxels-3184292.jpg": "/static/media/pexels-fauxels-3184292.16555ef7.jpg",
   "static/media/user12.png": "/static/media/user12.97ce0413.png",
-  "static/css/main.02a00fb4.chunk.css.map": "/static/css/main.02a00fb4.chunk.css.map",
+  "static/css/main.b2c6afc6.chunk.css.map": "/static/css/main.b2c6afc6.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.7c8d0a54f599035dc4557d576f65e04c.js": "/precache-manifest.7c8d0a54f599035dc4557d576f65e04c.js",
+  "precache-manifest.27d64c23501e71ba893a1814d8ddeb71.js": "/precache-manifest.27d64c23501e71ba893a1814d8ddeb71.js",
   "service-worker.js": "/service-worker.js"
 }
