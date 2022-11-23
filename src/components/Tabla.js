@@ -11,7 +11,7 @@ function Tabla(props) {
     let provisorio = 1;
     for (let i = 0; i < Object.keys(props.respuesta).length; i++) {
       rows.push(props.respuesta[`${i}`]);
-      console.log(props.respuesta[`${i}`].id_user);
+      // console.log(props.respuesta[`${i}`].id_user);
       if (props.respuesta[`${i}`].id_user == 0) {
         provisorio = 0;
       }
