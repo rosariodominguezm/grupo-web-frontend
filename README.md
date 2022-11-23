@@ -1,26 +1,70 @@
-# grupo-grupo-web-1-frontend
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-La validacion de front se saco de: https://www.telerik.com/blogs/how-to-create-validate-react-form-hooks
+## Available Scripts
 
-## Sobre la Implementación de Javascript
+In the project directory, you can run:
 
-* Se crearon archivos .js que permiten realizar acciones básicas, tanto para la vista registrarse como para la vista log_in.
+### `npm start`
 
-* En particular, el Javascript conectado a la vista **registrase** se llama ``registro.js``. Este archivo controla que todos los campos de inputs estén ingresados con datos (se rellenen todos los campos del registro), además que el mail sea válido (que contenga "@" y ".") y también que las contraseñas ingresadas sean idénticas. Para cualquiera de estos casos, si es que no se cumple alguna de estas consideraciones, se mostrará un alerta que indica el error cometido y se vaciará el campo en el que se cometió el error si corresponde (Ej: Si el mail no es válido, se le alerta al usuario "El mail ingresado no es válido! Vuelve a ingresarlo", y se vacia el campo email, para que el usuario lo complete denuevo desde cero).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* - Por otro lado, si el registro es exitoso, se le informa al usuario que se ha registrado correctamente y se le redirige a la landing page (index.html).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-* Por su parte el Javascript conectado a la vista **log_in** se llama ``log_in.js``, también realiza validaciones. Estas son, primero que todos los campos sean rellenados y segundo que el mail sea válido (tenga @ y .). Alerta si alguna de estas condiciones no se cumple.
+### `npm test`
 
-* - Tambien, si apretas el logo de usuario este va cambiando :)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Consideraciones
+### `npm run build`
 
-1. Para la correcta ejecucion y visualizacion de las pestanas, recomendamos visualizar el frontend de la aplicacion con la extensión live server. Dado que permite una mayor conectividad entre las vistas (hemos enfrentado problemas al abrir archivos así nomás sin utilizar live server).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. Como en el enunciado no se detallaba donde se debian ubicar los archivos .js, decidimos arbitrariamente ubicarlos en el directorio principal.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Gracias por leer :)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
