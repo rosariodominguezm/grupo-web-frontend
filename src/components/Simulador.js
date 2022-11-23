@@ -354,7 +354,7 @@ function Simulador(){
                                     <br></br>
                                     <br></br>
                                     <br></br>
-                                    <Tabla respuesta={data}/>
+                                    {currentUser (  <Tabla respuesta={data}/>)}
                                 </div>
                             </div>
                        
